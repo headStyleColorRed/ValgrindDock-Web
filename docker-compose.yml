@@ -1,9 +1,0 @@
-version: "3"
-
-services: 
-    web:
-        container_name: web
-        build: https://github.com/headStyleColorRed/ValgrindDock-Web.git
-        restart: always
-        ports: 
-            - 8080:80
