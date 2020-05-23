@@ -6,7 +6,7 @@ RUN rm -rf *
 
 COPY . .
 
-RUN rm Dockerfile Docker-compose.yml README.md
+RUN rm dockerfile docker-compose.yml README.md
 
 
 EXPOSE 80
